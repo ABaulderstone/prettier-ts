@@ -28,6 +28,7 @@
   },
   "rules": {
     "no-unused-vars": "error",
+    "no-unused-imports": "warn",
     "no-console": "warn",
     "func-names": "off",
     "no-process-exit": "off",
