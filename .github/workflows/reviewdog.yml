@@ -14,3 +14,4 @@ jobs:
         with:
           reporter: github-check
           eslint_flags: . --ext .ts
+          filter_mode: nofilter
