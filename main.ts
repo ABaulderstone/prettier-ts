@@ -1,5 +1,6 @@
 import prompt from 'prompt';
 import { Option } from 'fp-ts/Option';
+import * as O from 'fp-ts/lib/Option';
 
 prompt.get(['username', 'email'], function (err, result) {
   //
