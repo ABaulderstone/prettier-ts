@@ -6,12 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-      - run: yarn install
       - uses: reviewdog/action-eslint@v1
         with:
-          reporter: github-pr-review
+          reporter: github-pr-review # Change reporter.
           eslint_flags: . --ext .ts
           filter_mode: nofilter
