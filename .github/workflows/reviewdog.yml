@@ -12,6 +12,6 @@ jobs:
       - run: yarn install
       - uses: reviewdog/action-eslint@v1
         with:
-          reporter: github-check
+          reporter: github-pr-review
           eslint_flags: . --ext .ts
           filter_mode: nofilter
